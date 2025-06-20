@@ -20,11 +20,19 @@ export interface Complaint {
   phone: string;
   email: string;
   images: string[]; // base64 encoded images
+  imageUrls?: string[]; // URLs for uploaded images
+  latitude?: number; // GPS coordinates
+  longitude?: number; // GPS coordinates
   createdAt: string;
   updatedAt: string;
   assignedTo?: string;
   resolutionNotes?: string;
   estimatedResolution?: string;
+  feedback?: {
+    rating: number;
+    comment?: string;
+    timestamp: string;
+  };
   history: {
     timestamp: string;
     status: string;
