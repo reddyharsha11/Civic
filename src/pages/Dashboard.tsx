@@ -556,7 +556,9 @@ const Dashboard = () => {
           }
           className="space-y-6"
         >
-          <TabsList className="grid w-full grid-cols-2 max-w-md">
+          <TabsList
+            className={`grid w-full max-w-md ${isAdmin ? "grid-cols-2" : "grid-cols-1"}`}
+          >
             <TabsTrigger value="complaints" className="flex items-center gap-2">
               <FileText className="w-4 h-4" />
               Complaints
