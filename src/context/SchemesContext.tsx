@@ -37,6 +37,9 @@ interface SchemesContextType {
   getMostViewedScheme: () => Scheme | undefined;
   incrementViews: (schemeId: string) => void;
   searchSchemes: (query: string) => Scheme[];
+  updateScheme: (id: string, updates: Partial<Scheme>) => boolean;
+  deleteScheme: (id: string) => boolean;
+  addScheme: (scheme: Omit<Scheme, "id" | "createdAt" | "updatedAt">) => string;
 }
 
 const SchemesContext = createContext<SchemesContextType | undefined>(undefined);
