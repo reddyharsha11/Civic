@@ -465,16 +465,59 @@ const RegisterComplaint = () => {
                 <Label htmlFor="description">
                   Description <span className="text-red-500">*</span>
                 </Label>
-                <Textarea
-                  id="description"
-                  value={formData.description}
-                  onChange={(e) =>
-                    setFormData({ ...formData, description: e.target.value })
-                  }
-                  placeholder="Describe the issue in detail"
-                  rows={4}
-                  required
-                />
+                <div className="relative">
+                  <Textarea
+                    id="description"
+                    value={formData.description}
+                    onChange={(e) =>
+                      setFormData({ ...formData, description: e.target.value })
+                    }
+                    placeholder="Describe the issue in detail or use voice input"
+                    rows={4}
+                    required
+                    className="pr-12"
+                  />
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    onClick={
+                      isListening ? stopVoiceRecognition : startVoiceRecognition
+                    }
+                    className={`absolute right-2 top-2 h-8 w-8 p-0 ${
+                      isListening
+                        ? "text-red-500 animate-pulse"
+                        : "text-gray-500"
+                    }`}
+                    disabled={
+                      !(
+                        "webkitSpeechRecognition" in window ||
+                        "SpeechRecognition" in window
+                      )
+                    }
+                  >
+                    {isListening ? (
+                      <MicOff className="h-4 w-4" />
+                    ) : (
+                      <Mic className="h-4 w-4" />
+                    )}
+                  </Button>
+                </div>
+                {isListening && (
+                  <p className="text-sm text-blue-600 mt-1 flex items-center">
+                    <span className="animate-pulse">
+                      🎙️ Listening... Speak now
+                    </span>
+                  </p>
+                )}
+                {!(
+                  "webkitSpeechRecognition" in window ||
+                  "SpeechRecognition" in window
+                ) && (
+                  <p className="text-xs text-gray-500 mt-1">
+                    Voice input not supported in this browser
+                  </p>
+                )}
               </div>
 
               <div>
