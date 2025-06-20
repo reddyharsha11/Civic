@@ -614,6 +614,15 @@ const Dashboard = () => {
                       <RefreshCw className="w-4 h-4 mr-2 flex-shrink-0" />
                       <span className="truncate">Refresh Data</span>
                     </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => setCurrentTab("schemes")}
+                      className="border-green-300 text-green-700 hover:bg-green-100 justify-start h-10 text-xs sm:text-sm"
+                    >
+                      <Gift className="w-4 h-4 mr-2 flex-shrink-0" />
+                      <span className="truncate">Manage Schemes</span>
+                    </Button>
                     {selectedComplaints.length > 0 && (
                       <Button
                         variant="outline"
