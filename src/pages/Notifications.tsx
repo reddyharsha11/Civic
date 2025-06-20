@@ -39,6 +39,7 @@ import {
   User,
   Building2,
 } from "lucide-react";
+import { AdminNotificationTest } from "@/components/AdminNotificationTest";
 
 const Notifications = () => {
   const navigate = useNavigate();
