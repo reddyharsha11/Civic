@@ -90,6 +90,11 @@ const Navigation = () => {
       icon: <Search className="w-4 h-4" />,
     },
     {
+      href: "/schemes",
+      label: "Schemes",
+      icon: <Gift className="w-4 h-4" />,
+    },
+    {
       href: "/dashboard",
       label: t("dashboard"),
       icon: <BarChart3 className="w-4 h-4" />,
