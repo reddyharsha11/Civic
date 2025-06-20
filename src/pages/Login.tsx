@@ -28,6 +28,7 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import { UserType } from "@/services/authService";
+import { DatabaseStatus } from "@/components/DatabaseStatus";
 
 const Login = () => {
   const navigate = useNavigate();
