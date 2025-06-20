@@ -348,7 +348,7 @@ const translations = {
   },
   next: {
     en: "Next",
-    hi: "अ���ला",
+    hi: "अगला",
     te: "తదుపరి",
   },
   submit: {
@@ -365,7 +365,7 @@ const translations = {
   // AI Chatbot Translations
   ai_greeting: {
     en: "Hello! I'm your TG Civic AI assistant. I can help you with complaint registration, tracking, and answer your questions. How can I assist you today?",
-    hi: "नम��्ते! मैं आपका TG Civic AI सहायक हूं। मैं शिकायत पंजीकरण, ट्रैकिंग में आपकी मदद कर सकता हूं और आपके प्रश्नों का उत्तर दे सकता हूं। आज मैं आपकी कैसे सहायता कर सकता हूं?",
+    hi: "नम��्ते! मैं आपका TG Civic AI सहायक हूं। मैं शिकायत पंजीकरण, ट्रैकिंग में आपकी मदद कर सकता हूं और आपके प्रश्नों का उत्तर दे सकता हूं। आज मैं आपकी कैसे सहायता कर सकता ह��ं?",
     te: "నమస్కారం! నేను మీ TG Civic AI అసిస్టెంట్. నేను ఫిర్యాదు నమోదు, ట్రాకింగ్‌లో మీకు స���ాయం చేయగలను మరియు మీ ప్రశ్నలకు సమాధానాలు ఇవ్వగలను. ఈ రోజు నేను మీకు ఎలా సహాయం చేయగలను?",
   },
   ai_online_status: {
@@ -375,13 +375,13 @@ const translations = {
   },
   ai_register_help: {
     en: "To register a complaint: 1) Click 'Register Complaint' in the navigation, 2) Select your issue category (roads, water, etc.), 3) Fill in all details including photos and location, 4) Submit to get your tracking ID. Would you like me to guide you through a specific step?",
-    hi: "शिकायत दर्ज करने के लिए: 1) नेवीगेशन में 'शिकायत दर्ज करें' पर क्लिक करें, 2) अपनी समस्या की श्रेणी चुनें (सड़कें, पानी, आदि), 3) फोटो और स्थान सहित सभी विवरण भरें, 4) अपना ट्रैकिंग ID प्राप्त करने के लिए सबमिट करें। क्या आप चाहेंगे कि मैं आपको किसी विशेष चरण के माध्यम से मार्गदर्शन करूं?",
-    te: "ఫిర్యాదు నమోదు చేయడానికి: 1) నావిగేషన్‌లో 'ఫిర్యాదు నమోదు' మీద క్లిక్ చేయండి, 2) మీ సమస్య వర్గాన్ని ఎంచుకోండి (రోడ్లు, నీరు, మొదలైనవి), 3) ఫోటోలు మరియు లొకేషన్‌తో సహా అన్ని వివరాలను పూరించండి, 4) మీ ట్రాకింగ్ ID పొందడానికి సమర్పించండి. నేను మిమ్మల్ని ఏదైనా నిర్దిష్ట దశ ద్వారా మార్గదర్శనం చేయా���ని మీరు అనుకుంటున్నారా?",
+    hi: "शिकायत दर्ज करने के लिए: 1) नेवीगेशन में 'शिकायत दर्ज करें' पर क्लिक करें, 2) अपनी ���मस्या की श्रेणी चुनें (सड़कें, पानी, आदि), 3) फोटो और स्थान सहित सभी विवरण भरें, 4) अपना ट्रैकिंग ID प्राप्त करने के लिए सबमिट करें। क्या आप चाहेंगे कि मैं आपको किसी विशेष चरण के माध्यम से मार्गदर्शन करूं?",
+    te: "ఫిర్యాదు నమోదు చేయడానికి: 1) నావిగేషన్‌లో 'ఫిర్యాదు నమోదు' మీద క్లిక్ చేయండి, 2) మీ సమస్య వర్గాన్ని ఎంచుకోండి (రోడ్లు, నీరు, మొదలైనవి), 3) ఫోటోలు మరియు లొకేషన్‌తో సహా అన్ని వివరాలను పూరించండి, 4) మీ ట్రాకింగ్ ID పొందడానికి సమర్పించండి. నేను మిమ్మల్ని ఏదైనా నిర్దిష్ట దశ ద్వారా మార్గదర్శనం చేయాలని మీరు అనుకుంటున్నారా?",
   },
   ai_track_help: {
     en: "To track your complaint: 1) Go to 'Track Complaint' page, 2) Enter your complaint ID (format: TGC2024XXXXXX) or phone number, 3) View complete status history and details. Do you have your complaint ID?",
     hi: "अपनी शिकायत को ट्रैक करने के लिए: 1) 'शिकायत ट्र���क करें' पेज पर जाएं, 2) अपना शिकायत ID (प्रारूप: TGC2024XXXXXX) या फोन नंबर दर्ज करें, 3) पूर्ण स्थिति इतिहास और विवरण देखें। क्या आपके पास अपना शिकायत ID है?",
-    te: "మీ ఫిర్యాదును ట్రాక్ చేయడానికి: 1) 'ఫిర్యాదు ట్రాక్ చేయండి' పేజీకి వెళ్లండి, 2) మీ ఫిర్యాదు ID (ఫార్మా���్: TGC2024XXXXXX) లేదా ఫోన్ నంబర్ నమోదు చేయండ��, 3) పూర్తి స్థితి చరిత్ర మరియు వివరాలను చూడండి. మీ దగ్గర మీ ఫిర్యాదు ID ఉందా?",
+    te: "మీ ఫిర్యాదును ట్రాక్ చేయడానికి: 1) 'ఫిర్యాదు ట్రాక్ చేయండి' పేజీకి వెళ్లండి, 2) మీ ఫిర్యాదు ID (ఫార్మాట్: TGC2024XXXXXX) లేదా ఫోన్ నంబర్ నమోదు చేయండ��, 3) పూర్తి స్థితి చరిత్ర మరియు వివరాలను చూడండి. మీ దగ్గర మీ ఫిర్యాదు ID ఉందా?",
   },
   ai_time_help: {
     en: "Resolution times vary by issue type: Roads (3-7 days), Water (2-5 days), Street lights (1-2 days), Sanitation (1-3 days). You'll receive SMS/email updates throughout the process. Is there a specific type of issue you're asking about?",
@@ -391,7 +391,7 @@ const translations = {
   ai_photo_help: {
     en: "You can upload up to 5 photos during complaint registration. Photos help officials understand the problem better. Supported formats: JPG, PNG, WebP. Click the camera icon or drag photos to the upload area.",
     hi: "शिकायत पंजीकरण के दौरान आप 5 तक फोटो अपलोड कर सकते हैं। फोटो अधिकारियों को समस्या को बेहतर ढंग से समझने में मदद करती हैं। समर्थित प्रारूप: JPG, PNG, WebP। कैमरा आइकन पर क्लिक करें या फोटो को अपलोड क्षेत्र में खींचें।",
-    te: "ఫిర్యాదు నమోదు సమయంలో మీరు 5 ఫోటోలు వరకు అప్‌లోడ్ చేయవచ్చు. ఫోటోలు అధికారులకు ��మస్యను బాగా అర్థం చేసుకోవడంలో సహాయపడతాయి. మద్దతు ఉన్న ఫార్మాట్‌లు: JPG, PNG, WebP. కెమెరా ఐకాన్‌పై క్లిక్ చేయండి లేదా ఫోటోలను అప్‌లోడ్ ప్రాంతానికి లాగండి.",
+    te: "ఫిర్యాదు నమోదు సమయంలో మీరు 5 ఫోటోలు వరకు అప్‌లోడ్ చేయవచ్చు. ఫోటోలు అధికారులకు ��మస్యను బాగా అర్థం చేసుకోవడంలో సహాయపడతా���ి. మద్దతు ఉన్న ఫార్మాట్‌లు: JPG, PNG, WebP. కెమెరా ఐకాన్‌పై క్లిక్ చేయండి లేదా ఫోటోలను అప్‌లోడ్ ప్రాంతానికి లాగండి.",
   },
   ai_location_help: {
     en: "For location: 1) Use 'My Location' button for automatic GPS detection, 2) Or manually enter your address, 3) Add nearby landmarks for better identification. Accurate location helps officials reach the right spot quickly.",
@@ -410,13 +410,13 @@ const translations = {
   },
   ai_emergency: {
     en: "For emergencies: 🚨 Call 100 (Police), 🚒 Call 101 (Fire), 🚑 Call 108 (Ambulance). For urgent civic issues, register a complaint and mark it as 'High Priority'. Emergency complaints are processed immediately.",
-    hi: "आपातकाल के लिए: 🚨 100 कॉल करें (पुलिस), 🚒 101 कॉल करें (फायर), 🚑 108 कॉल करें (एम्बुलेंस)। तत्काल नागरिक मुद्दों के लिए, एक शिकायत दर्ज करें और इसे 'उच्च प्राथमिकता' के रूप में चिह्नित करें। आपातकालीन शिकायतों को तुरंत संसाधित किया जाता है।",
+    hi: "आपातकाल के लिए: 🚨 100 कॉल करें (पुलिस), 🚒 101 कॉल करें (फायर), 🚑 108 कॉल करें (एम्बुलेंस)। तत्काल नागरिक मुद्दों के लिए, एक शिकायत दर��ज करें और इसे 'उच्च प्राथमिकता' के रूप में चिह्नित करें। आपातकालीन शिकायतों को तुरंत संसाधित किया जाता है।",
     te: "అత్యవసర పరిస్థితుల కోసం: 🚨 100కు కాల్ చేయండి (పోలీసు), 🚒 101కు కాల్ చేయ��డి (అగ్నిమాపక), 🚑 108కు కాల్ చేయండి (అంబులెన్స్). అత్యవసర పౌర సమస్యల కోసం, ఫిర్యాదు నమోదు చేసి దానిని 'అధిక ప్రాధాన్యత'గా గుర్తు పెట్టండి. అత్యవసర ఫిర్యాదులు వెంటనే ప్రాసెస్ చేయబడతాయి.",
   },
   ai_default: {
     en: "I'd be happy to help! I can assist you with: 1) Registering complaints, 2) Tracking complaint status, 3) Understanding the resolution process, 4) Technical support. Could you please be more specific about what you need help with?",
     hi: "मैं खुशी से मदद करूंगा! मैं आपकी सहायता कर सकता हूं: 1) शिकायतें दर्ज करना, 2) शिकायत की स्थिति ट्रैक करना, 3) समाधान प्रक्रिया को समझना, 4) तकनीकी सहायता। क्या आप कृपया अधिक विशिष्ट बता सकते हैं कि आपको किस चीज़ में मदद चाहिए?",
-    te: "నేను సంతోషంగా సహాయం చేస్తాను! నేను మీకు ఈ విషయాలలో సహాయం చేయగలను: 1) ఫిర్యాదులు నమోదు చేయడం, 2) ఫిర్యాదు స్థితిని ట్రాక్ ��ేయడం, 3) పరిష్కార ప్రక్రియను అర్థం చేసుకోవడం, 4) సాంకేతిక మద్దతు. దయచేసి మీకు ఏ విషయంలో సహాయం కావాలో మరింత నిర్దిష్టంగా చెప్పగలరా?",
+    te: "నేను సంతోషంగా సహాయం చేస్తాను! నేను మీకు ఈ విషయాలలో సహాయం చేయగలను: 1) ఫిర్యాదులు నమోదు చేయడం, 2) ఫిర్యాదు స్థితిని ట్రాక్ ��ేయడం, 3) పరిష్కార ప్రక్రియను అర్థం చేసుకోవడం, 4) సాంకేతిక మద్దతు. దయచేసి మీకు ఏ విషయంలో సహాయం కావాలో మరింత నిర్దిష్టంగా ���ెప్పగలరా?",
   },
   ai_quick_register: {
     en: "How to register complaint?",
@@ -436,7 +436,7 @@ const translations = {
   ai_quick_time: {
     en: "How long to resolve?",
     hi: "हल होने में कितना समय?",
-    te: "పరిష్కరించడానిక��� ఎంత సమయం?",
+    te: "పరిష్కరించడానికి ఎంత సమయం?",
   },
   ai_quick_support: {
     en: "Contact support",
@@ -450,7 +450,7 @@ const translations = {
   },
   ai_register_btn: {
     en: "Register",
-    hi: "दर्ज करें",
+    hi: "दर���ज करें",
     te: "నమోదు",
   },
   ai_track_btn: {
@@ -504,7 +504,7 @@ const translations = {
   },
   testimonial_2_role: {
     en: "Software Engineer",
-    hi: "सॉफ्टवेयर इंजीनियर",
+    hi: "सॉफ्टवेयर इंजीनिय��",
     te: "సాఫ్ట్‌వేర్ ఇంజనీర్",
   },
   testimonial_2_location: {
@@ -557,7 +557,7 @@ const translations = {
   testimonial_4_quote: {
     en: "Street lighting issue near my home was addressed promptly. I feel much safer now during evening walks.",
     hi: "मेरे घर के पास स्ट्रीट लाइटिंग की समस्या का तुरंत समाधान किया गया। अब मैं शाम की सैर के दौरान बहुत सुरक्षित महसूस करती हूं।",
-    te: "నా ఇంటి దగ్గర వీధి దీపాల సమస్య వెంటనే పరిష్కరించబడింది. ఇప్పుడు సాయంత్రం నడుచుకునే సమయంలో చాలా సు���క్షితంగా అనిపిస్తుంది.",
+    te: "నా ఇంటి దగ్గర వీధి దీపాల సమస్య వెంటనే పరిష్కరించబడింది. ఇప్పుడు సాయంత్రం నడుచుకునే సమయంలో చాలా సురక్షితంగా అనిపిస్తుంది.",
   },
   testimonial_5_name: {
     en: "Vikram Singh",
@@ -571,13 +571,13 @@ const translations = {
   },
   testimonial_5_location: {
     en: "Jubilee Hills",
-    hi: "जुबली हिल्स",
+    hi: "जुबली ��िल्स",
     te: "జూబిలీ హిల్స్",
   },
   testimonial_5_quote: {
     en: "Multiple residents in our colony reported waste management issues. All were resolved within a week!",
     hi: "हमारी कॉलोनी के कई निवासियों ने कचरा प्रबंधन की समस्याओं की रिपोर्ट की। सभी एक सप्ताह के भीतर हल हो गईं!",
-    te: "మా కాలనీలోని అనేక మంది నివాసులు వ్యర్థ పదార్థాల నిర్వహణ సమస్యలను నివేదించారు. అన��నీ ఒక వారంలోనే పరిష్కరించబడ్డాయి!",
+    te: "మా కాలనీలోని అనేక మంది నివాసులు వ్యర్థ పదార్థాల నిర్వహణ సమస్యలను నివేదించారు. అన్నీ ఒక వారంలోనే పరిష్కరించబడ్డాయి!",
   },
   testimonial_6_name: {
     en: "Sunita Devi",
@@ -592,12 +592,12 @@ const translations = {
   testimonial_6_location: {
     en: "Kukatpally",
     hi: "कुकटपल्ली",
-    te: "కూకట్‌పల్లి",
+    te: "కూకట��‌పల్లి",
   },
   testimonial_6_quote: {
     en: "The mobile app is so easy to use! I reported a broken sewage line and got regular updates until it was fixed.",
     hi: "मोबाइल ऐप का उपयोग करना बहुत आसान है! मैंने एक टूटी हुई सीवेज लाइन की रिपोर्ट की और ठीक होने तक नियमित अपडेट मिलते रहे।",
-    te: "మొబైల్ యాప్ వాడుకోవడం చాలా సులభం! నేను మునిగిపోయిన మురుగు కాలువను రిపోర్ట్ చేశాను ���రియు అది సరిదిద్దబడే వరకు రెగ్యులర్ అప్‌డేట్‌లు వచ్చాయి.",
+    te: "మొబైల్ యాప్ వాడుకోవడం చాలా సులభం! నేను మునిగిపోయిన మురుగు కాలువను రిపోర్ట్ చేశాను మరియు అది సరిదిద్దబడే వరకు రెగ్యులర్ అప్‌డేట్‌లు వచ్చాయి.",
   },
   testimonial_7_name: {
     en: "Dr. Kiran Patel",
@@ -607,7 +607,7 @@ const translations = {
   testimonial_7_role: {
     en: "Medical Professional",
     hi: "चिकित्सा पेशेवर",
-    te: "వైద్య నిపుణుడు",
+    te: "వైద్య ���ిపుణుడు",
   },
   testimonial_7_location: {
     en: "Hitec City",
@@ -617,7 +617,7 @@ const translations = {
   testimonial_7_quote: {
     en: "Road maintenance near the hospital was completed quickly. Patients can now access our facility without hassle.",
     hi: "अस्पताल के पास सड़क रखरखाव जल्दी पूरा हो गया। मरीज़ अब बिना किसी परेशानी के हमारी सुविधा तक पहुंच सकते हैं।",
-    te: "ఆసుపత్రి దగ్గర రోడ్ మైంటెనెన్స్ త��వరగా పూర్తయింది. రోగులు ఇప్పుడు ఎటువంటి ఇబ్బంది లేకుండా మా సదుపాయాన్ని చేరుకోవచ్చు.",
+    te: "ఆసుపత్రి దగ్గర రోడ్ మైంటెనెన్స్ త్వరగా పూర్తయింది. రోగులు ఇప్పుడు ఎటువంటి ఇబ్బంది లేకుండా మా సదుపాయాన్ని చేరుకోవచ్చు.",
   },
   testimonial_8_name: {
     en: "Ramesh Gupta",
@@ -626,7 +626,7 @@ const translations = {
   },
   testimonial_8_role: {
     en: "Retired Teacher",
-    hi: "सेवानिवृत्त शिक्षक",
+    hi: "सेवानिवृत्��� शिक्षक",
     te: "రిటైర్డ్ టీచర్",
   },
   testimonial_8_location: {
@@ -685,6 +685,11 @@ const translations = {
     en: "Days",
     hi: "दिन",
     te: "రోజులు",
+  },
+  get_started: {
+    en: "Get Started",
+    hi: "शुरू करें",
+    te: "ప్రారంభించండి",
   },
 };
 
