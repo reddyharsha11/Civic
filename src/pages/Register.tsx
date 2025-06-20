@@ -48,6 +48,11 @@ const Register = () => {
     phone: "",
     password: "",
     confirmPassword: "",
+    userType: "citizen" as UserType,
+    // Admin specific fields
+    department: "",
+    employeeId: "",
+    role: "admin" as "super_admin" | "admin" | "moderator",
   });
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
