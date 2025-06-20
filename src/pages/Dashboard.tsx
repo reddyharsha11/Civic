@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useComplaints, Complaint } from "@/context/ComplaintContext";
 import { useAuth } from "@/context/AuthContext";
 import { useNotifications } from "@/context/NotificationContext";
+import { useSchemes } from "@/context/SchemesContext";
 import { Button } from "@/components/ui/button";
 import {
   Card,
