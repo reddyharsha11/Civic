@@ -357,7 +357,7 @@ const Dashboard = () => {
                       <tbody>
                         {allSchemes.map((scheme, index) => (
                           <tr
-                            key={index}
+                            key={scheme.id}
                             className="border-b border-gray-100 hover:bg-gray-50"
                           >
                             <td className="py-4 px-4">
