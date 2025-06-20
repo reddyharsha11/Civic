@@ -1180,15 +1180,14 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-5xl md:text-7xl font-black text-white mb-6">
-              Success
+              {t("success_stories").split(" ")[0]}
               <span className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                 {" "}
-                Stories
+                {t("success_stories").split(" ").slice(1).join(" ")}
               </span>
             </h2>
             <p className="text-2xl text-gray-300 max-w-4xl mx-auto">
-              Real citizens, real results, real change in communities across
-              Telangana
+              {t("real_citizens_desc")}
             </p>
           </div>
 
