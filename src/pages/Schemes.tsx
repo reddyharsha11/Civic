@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSchemes } from "@/context/SchemesContext";
+import { useSchemes, Scheme } from "@/context/SchemesContext";
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,6 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { SchemeDetailModal } from "@/components/SchemeDetailModal";
 import {
   Search,
   Filter,
