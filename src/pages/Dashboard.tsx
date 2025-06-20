@@ -555,6 +555,16 @@ const Dashboard = () => {
               </Card>
             </TabsContent>
           </Tabs>
+
+          {/* Admin Scheme Modal */}
+          <AdminSchemeModal
+            scheme={selectedScheme}
+            isOpen={isSchemeModalOpen}
+            mode={schemeModalMode}
+            onClose={() => setIsSchemeModalOpen(false)}
+            onSave={handleSaveScheme}
+            onDelete={handleDeleteScheme}
+          />
         </div>
       </div>
     </div>
