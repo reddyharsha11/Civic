@@ -65,24 +65,37 @@ const Register = () => {
     setError("");
     setSuccess("");
 
-    // Validation
+    // Basic validation
     if (
       !formData.name ||
       !formData.email ||
       !formData.phone ||
-      !formData.password
+      !formData.password ||
+      !formData.userType
     ) {
-      setError("Please fill in all fields");
+      setError("Please fill in all required fields");
       return;
+    }
+
+    // Admin specific validation
+    if (formData.userType === "admin") {
+      if (!formData.department || !formData.employeeId) {
+        setError("Department and Employee ID are required for admin accounts");
+        return;
+      }
+      if (formData.password.length < 8) {
+        setError("Admin password must be at least 8 characters long");
+        return;
+      }
+    } else {
+      if (formData.password.length < 6) {
+        setError("Password must be at least 6 characters long");
+        return;
+      }
     }
 
     if (formData.password !== formData.confirmPassword) {
       setError("Passwords do not match");
-      return;
-    }
-
-    if (formData.password.length < 6) {
-      setError("Password must be at least 6 characters long");
       return;
     }
 
@@ -96,20 +109,32 @@ const Register = () => {
       return;
     }
 
-    const success = await register({
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      password: formData.password,
-    });
+    try {
+      const success = await register({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        password: formData.password,
+        userType: formData.userType,
+        department:
+          formData.userType === "admin" ? formData.department : undefined,
+        employeeId:
+          formData.userType === "admin" ? formData.employeeId : undefined,
+        role: formData.userType === "admin" ? formData.role : undefined,
+      });
 
-    if (success) {
-      setSuccess("Account created successfully! Redirecting...");
-      setTimeout(() => {
-        navigate("/");
-      }, 2000);
-    } else {
-      setError("User with this email or phone number already exists");
+      if (success) {
+        setSuccess(
+          `${formData.userType === "admin" ? "Admin" : "Citizen"} account created successfully! Redirecting...`,
+        );
+        setTimeout(() => {
+          navigate("/");
+        }, 2000);
+      } else {
+        setError("User with this email or phone number already exists");
+      }
+    } catch (error: any) {
+      setError(error.message || "Registration failed. Please try again.");
     }
   };
 
