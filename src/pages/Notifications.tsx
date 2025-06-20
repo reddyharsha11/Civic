@@ -232,6 +232,9 @@ const Notifications = () => {
           </Card>
         </div>
 
+        {/* Admin Notification Test (Only visible to admin users) */}
+        <AdminNotificationTest />
+
         {/* Filters */}
         <Card className="mb-4 sm:mb-6 bg-white/80 backdrop-blur-sm">
           <CardContent className="p-3 sm:p-6">
