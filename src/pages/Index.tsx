@@ -1291,16 +1291,20 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               {[
                 {
-                  number: "2.3 Days",
-                  label: "Average Resolution",
+                  number: `2.3 ${t("days_short")}`,
+                  label: t("average_resolution"),
                   icon: Clock,
                 },
                 {
                   number: `${successRate}%`,
-                  label: "Success Rate",
+                  label: t("success_rate_label"),
                   icon: TrendingUp,
                 },
-                { number: "24/7", label: "Always Available", icon: Headphones },
+                {
+                  number: "24/7",
+                  label: t("always_available"),
+                  icon: Headphones,
+                },
               ].map((stat, index) => (
                 <div
                   key={index}
