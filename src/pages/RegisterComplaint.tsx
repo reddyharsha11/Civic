@@ -317,18 +317,6 @@ const RegisterComplaint = () => {
     }
   };
 
-  const getCurrentLocation = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        const { latitude, longitude } = position.coords;
-        setFormData({
-          ...formData,
-          location: `${latitude.toFixed(6)}, ${longitude.toFixed(6)}`,
-        });
-      });
-    }
-  };
-
   const copyComplaintId = () => {
     navigator.clipboard.writeText(complaintId);
   };
