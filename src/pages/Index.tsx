@@ -473,11 +473,10 @@ const Index = () => {
 
   const testimonials = [
     {
-      name: "Rajesh Kumar",
-      role: "Small Business Owner",
-      location: "Hyderabad",
-      quote:
-        "The pothole near my shop was fixed within 3 days of reporting. Excellent service!",
+      name: t("testimonial_1_name"),
+      role: t("testimonial_1_role"),
+      location: t("testimonial_1_location"),
+      quote: t("testimonial_1_quote"),
       rating: 5,
       avatar: "RK",
       bgGradient: "from-blue-500 to-purple-600",
@@ -485,11 +484,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Priya Sharma",
-      role: "Software Engineer",
-      location: "Secunderabad",
-      quote:
-        "Real-time tracking helped me follow the progress. Very transparent process.",
+      name: t("testimonial_2_name"),
+      role: t("testimonial_2_role"),
+      location: t("testimonial_2_location"),
+      quote: t("testimonial_2_quote"),
       rating: 5,
       avatar: "PS",
       bgGradient: "from-green-500 to-blue-600",
@@ -497,11 +495,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1494790108755-2616b612b105?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Mohammed Ali",
-      role: "Resident",
-      location: "Gachibowli",
-      quote:
-        "Water supply issue resolved in 2 days. Great initiative by the government!",
+      name: t("testimonial_3_name"),
+      role: t("testimonial_3_role"),
+      location: t("testimonial_3_location"),
+      quote: t("testimonial_3_quote"),
       rating: 5,
       avatar: "MA",
       bgGradient: "from-orange-500 to-pink-600",
@@ -509,11 +506,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Anita Reddy",
-      role: "Senior Citizen",
-      location: "Banjara Hills",
-      quote:
-        "Street lighting issue near my home was addressed promptly. I feel much safer now during evening walks.",
+      name: t("testimonial_4_name"),
+      role: t("testimonial_4_role"),
+      location: t("testimonial_4_location"),
+      quote: t("testimonial_4_quote"),
       rating: 5,
       avatar: "AR",
       bgGradient: "from-purple-500 to-pink-600",
@@ -521,11 +517,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Vikram Singh",
-      role: "Community Leader",
-      location: "Jubilee Hills",
-      quote:
-        "Multiple residents in our colony reported waste management issues. All were resolved within a week!",
+      name: t("testimonial_5_name"),
+      role: t("testimonial_5_role"),
+      location: t("testimonial_5_location"),
+      quote: t("testimonial_5_quote"),
       rating: 5,
       avatar: "VS",
       bgGradient: "from-emerald-500 to-teal-600",
@@ -533,11 +528,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Sunita Devi",
-      role: "Homemaker",
-      location: "Kukatpally",
-      quote:
-        "The mobile app is so easy to use! I reported a broken sewage line and got regular updates until it was fixed.",
+      name: t("testimonial_6_name"),
+      role: t("testimonial_6_role"),
+      location: t("testimonial_6_location"),
+      quote: t("testimonial_6_quote"),
       rating: 5,
       avatar: "SD",
       bgGradient: "from-rose-500 to-orange-600",
@@ -545,11 +539,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Dr. Kiran Patel",
-      role: "Medical Professional",
-      location: "Hitec City",
-      quote:
-        "Road maintenance near the hospital was completed quickly. Patients can now access our facility without hassle.",
+      name: t("testimonial_7_name"),
+      role: t("testimonial_7_role"),
+      location: t("testimonial_7_location"),
+      quote: t("testimonial_7_quote"),
       rating: 5,
       avatar: "KP",
       bgGradient: "from-cyan-500 to-blue-600",
@@ -557,11 +550,10 @@ const Index = () => {
         "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Ramesh Gupta",
-      role: "Retired Teacher",
-      location: "Ameerpet",
-      quote:
-        "Park maintenance in our area has improved dramatically. Children have a safe place to play again.",
+      name: t("testimonial_8_name"),
+      role: t("testimonial_8_role"),
+      location: t("testimonial_8_location"),
+      quote: t("testimonial_8_quote"),
       rating: 5,
       avatar: "RG",
       bgGradient: "from-indigo-500 to-purple-600",
