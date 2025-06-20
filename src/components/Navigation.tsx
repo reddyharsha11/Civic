@@ -161,7 +161,9 @@ const Navigation = () => {
                 <Link
                   key={item.href}
                   to={item.href}
-                  className={`relative flex items-center space-x-2 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group whitespace-nowrap ${
+                  className={`relative flex items-center space-x-2 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group whitespace-nowrap nav-text ${
+                    language === "te" ? "telugu-text" : ""
+                  } ${
                     isActiveRoute(item.href)
                       ? "text-blue-600 bg-blue-50 shadow-sm"
                       : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
