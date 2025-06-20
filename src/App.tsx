@@ -8,6 +8,7 @@ import { AuthProvider } from "./context/AuthContext";
 import { ComplaintProvider } from "./context/ComplaintContext";
 import { NotificationProvider } from "./context/NotificationContext";
 import { LanguageProvider } from "./context/LanguageContext";
+import { SchemesProvider } from "./context/SchemesContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import ChatBot from "./components/ChatBot";
 import Index from "./pages/Index";
@@ -18,6 +19,7 @@ import TrackComplaint from "./pages/TrackComplaint";
 import Dashboard from "./pages/Dashboard";
 import Notifications from "./pages/Notifications";
 import Profile from "./pages/Profile";
+import Schemes from "./pages/Schemes";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,60 +30,63 @@ const App = () => (
       <AuthProvider>
         <NotificationProvider>
           <ComplaintProvider>
-            <TooltipProvider>
-              <Toaster />
-              <Sonner />
-              <BrowserRouter>
-                <Routes>
-                  <Route path="/" element={<Index />} />
-                  <Route path="/login" element={<Login />} />
-                  <Route path="/register" element={<Register />} />
-                  <Route
-                    path="/register-complaint"
-                    element={
-                      <ProtectedRoute>
-                        <RegisterComplaint />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/track-complaint"
-                    element={
-                      <ProtectedRoute>
-                        <TrackComplaint />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/dashboard"
-                    element={
-                      <ProtectedRoute requiredRole={["admin", "official"]}>
-                        <Dashboard />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/notifications"
-                    element={
-                      <ProtectedRoute>
-                        <Notifications />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/profile"
-                    element={
-                      <ProtectedRoute>
-                        <Profile />
-                      </ProtectedRoute>
-                    }
-                  />
-                  {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-                  <Route path="*" element={<NotFound />} />
-                </Routes>
-                <ChatBot />
-              </BrowserRouter>
-            </TooltipProvider>
+            <SchemesProvider>
+              <TooltipProvider>
+                <Toaster />
+                <Sonner />
+                <BrowserRouter>
+                  <Routes>
+                    <Route path="/" element={<Index />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route
+                      path="/register-complaint"
+                      element={
+                        <ProtectedRoute>
+                          <RegisterComplaint />
+                        </ProtectedRoute>
+                      }
+                    />
+                    <Route
+                      path="/track-complaint"
+                      element={
+                        <ProtectedRoute>
+                          <TrackComplaint />
+                        </ProtectedRoute>
+                      }
+                    />
+                    <Route
+                      path="/dashboard"
+                      element={
+                        <ProtectedRoute requiredRole={["admin", "official"]}>
+                          <Dashboard />
+                        </ProtectedRoute>
+                      }
+                    />
+                    <Route
+                      path="/notifications"
+                      element={
+                        <ProtectedRoute>
+                          <Notifications />
+                        </ProtectedRoute>
+                      }
+                    />
+                    <Route
+                      path="/profile"
+                      element={
+                        <ProtectedRoute>
+                          <Profile />
+                        </ProtectedRoute>
+                      }
+                    />
+                    <Route path="/schemes" element={<Schemes />} />
+                    {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                    <Route path="*" element={<NotFound />} />
+                  </Routes>
+                  <ChatBot />
+                </BrowserRouter>
+              </TooltipProvider>
+            </SchemesProvider>
           </ComplaintProvider>
         </NotificationProvider>
       </AuthProvider>
